@@ -1,104 +1,217 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include('jas.php'); ?> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-	<title>Coming Soon 3</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Excel Geeko</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!-- CSS Sheets -->
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<head>
+	<div id="backgroundimg" class="container">
+	<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+		<div id="header" >
+			<nav class="navbar navbar-dark fixed-top navbar-expand-lg  " >
+				<div class="container ">
+					
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="margin-left:5%">
+					<span class="navbar-toggler-icon"></span>
+	  				</button>
+	  				
+					<div class="collapse navbar-collapse justify-content-center order-2 " id="navbarNavAltMarkup">
+					    <div class="navbar-nav" >
+					      <a class="nav-item nav-link" href="#page">Home <span class="sr-only">(current)</span></a>
+					      <a class="nav-item nav-link" href="#featured">About us</a>
+					      <a class="nav-item nav-link" href="#portfolio">Testemonial</a>
+					      <a class="nav-item nav-link" href="#contact">Contact Us</a>
+				    	</div>
+				  	</div>
+			  	</div>
+			</nav>
+		</div>
+	
+
+
+<!--
+<div id="logo" class="container">
+	<h1><a href="#" class="fas fa-tasks"><span>TwoColours</span></a></h1> 
+-->
+
+<div id="page" class="container">
+	<div id="content">
+		<div class="title">
+			<img id="logo" src="images/logo-2.gif">
+			<h2>Excel Geeko</h2>
+			<span class="byline">The lizard you always needed</span>
+		</div>
+		
+	</div>
+	</div>
+	<!-- <div id="sidebar"><a href="#" class="image image-full"><img src="images/pic05.jpg" alt="" /></a></div>
+</div> -->
+	</div>
 </head>
 <body>
-	
-	
-	// <div class="bg-img1 size1 flex-w flex-c-m p-t-55 p-b-55 p-l-15 p-r-15" style="background-image: url('images/bg01.jpg');">
-		<div class="wsize1 bor1 bg1 p-t-175 p-b-45 p-l-15 p-r-15 respon1">
-			<div class="wrappic1">
-				<img src="images/icons/logo.png" alt="LOGO">
+	<div id="featured-wrapper">
+		<div id="featured" class="container">
+			<div class="major">
+				<h2>Our Services</h2>
+				<span class="byline">We provide a wide range of services using primarly excel. However, we are handy and we will use other tools to make sure you get the results that you need. We are based in <strong>Toronot, On</strong> and we are ready to discuss your needs anytime.</span>
 			</div>
-
-			<p class="txt-center m1-txt1 p-t-33 p-b-68">
-				Our website is under construction
-			</p>
-
-			<div class="wsize2 flex-w flex-c hsize1 cd100">
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt1 p-b-9 days">35</span>
-					<span class="s1-txt1">Days</span>
+			<div class="row">
+				<div class="col">
+					<div class = "icon">
+						<span class="fas fa-chart-line col-centered"></span>
+					</div>
+					<div class="title ">
+						<h2>Reports Automation</h2>
+						<div class="col col-centered bottom-align-text" ><span class="byline">Automate all your periodic reports with a click of a button</span></div>
+					</div>
 				</div>
-
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt1 p-b-9 hours">17</span>
-					<span class="s1-txt1">Hours</span>
+				<div class="col">
+					<div class = "icon">
+						<span class="fas fa-qrcode col-centered"></span>
+					</div>
+					<div class="title col-centered">
+						<h2>File Managment</h2>
+						<div class="col col-centered bottom-align-text"><span class="byline">Manage all your files from excel and automate any adminstrative task</span></div>
+					</div>
 				</div>
-
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt1 p-b-9 minutes">50</span>
-					<span class="s1-txt1">Minutes</span>
+				<div class="col">
+					<div class = "icon">
+						<span class="fas fa-table col-centered"></span>
+					</div>
+					<div class="title col-centered " >
+						<h2>Spreadsheat Managment and Data Queries</h2>
+						<div class="col col-centered bottom-align-text"><span class="byline">link all your spreadsheets together</span></div>
+					</div>
 				</div>
-
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt1 p-b-9 seconds">39</span>
-					<span class="s1-txt1">Seconds</span>
+				<div class="col">
+					<div class = "icon">
+						<span class="fas fa-code col-centered"></span>
+					</div>
+					<div class="title col-centered ">
+						<h2>Web Scraping</h2>
+						<div class="col col-centered bottom-align-text"><span class="byline">Get data from the internet to your spreadsheat instantly</span></div>
+					</div>
 				</div>
 			</div>
-
-
-			
 		</div>
 	</div>
+	<div id="portfolio-wrapper">
+		<div id="portfolio" class="container">
+			<div class="major">
+				<h2>Testimonial</h2>
+				<span class="byline">What our happy costumer siad about our service</span>
+			</div>
+			<div class="row">
+				<div class="col">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				
+					<h4>" Excel Geeko understood my request, clarified my end goal, provided what I asked for AND delivered a better and more correct solution." <br/> - <strong>Ali</strong></h4>
+					
+			</div>			
+			<div class="col">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				
+					<h4>" They helped me cut the time it takes to do my monthly reports by hours. I can do them in an 2 hours vs a full day worth of boring work. "<br/> - <strong>Hannah</strong></h4>
+				
+					
+				
+			</div>			
+			<div class="col">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				
+					<h4>" The engineer who created our excel program left and Excel geeko helped reverse engineer it and update it to work with our current needs." - <strong>David</strong> </h4>
+				
+				
+			</div>			
+			<div class="col">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				
+					<h4>" I love their work, I come to them with all my excel problems and they always have a great way to make my work more effiecent."<br/> - <strong>Sami</strong> </h4>
+					
+				</div>
+			</div>			
+		</div>
+</div>
+<!-- php ready, once uplaoded to a dynamic sever 
+<div id="contact" class="container">
+		<div class="major">
+			<h2>Get in touch</h2>
+			<span class="byline">Email us for a free estimate.</span>
+		</div>
+		<div class="container" id="contactmeform">
+			
+		  <form action="jas.php"; method="post">
 
+			<label for="name"> Name <br /></label>
+			<input type="text" id="name" name="name" placeholder="Your name.." required>
 
+			<label for="email"><br />Email<br /></label>
+			<input type="text" id="email" name="email" placeholder="Your last name.." required >
+			
+			<label for="message"><br />Your inquiry<br /></label>
+			<textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea><br />
 
+			<input type="submit" value="send">
+			<?php if (!empty($msg)) { 
+				echo "<h2>$msg</h2>";} ?>
+
+	  </form>
+	  </div>
+</div>
+ -->
+<div id="contact">
 	
+	<div class="major">
+			<h2>Get in touch</h2>
+			<span class="byline">Email us for a free estimate. We will get back to you within 24hrs. </span>
+	</div>
+	<div class="row">
+	<div class="col-md-4 offset-md-4"> 
+	<form action="https://formspree.io/excelgeeko@gmail.com" method="POST" >
+			<input  type="text" id="name" name="name" placeholder="Your name.." required>
+			<input type="email" id="email" name="_replyto" placeholder="Your last name.." required >
+			<textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea><br />
+  			<input type="submit" value="Send">
+	</form>
+	</div>
+</div>
+</div>
+</div>
 
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 2019,
-			endtimeMonth: 03,
-			endtimeDate: 01,
-			endtimeHours: 18,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "America/Toronto" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
 
+
+</div>
+<div id="copyright" class="container">
+	<p>&copy;  All rights reserved.| Design by Excel Geeko </a>.</p>
+</div>
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </html>
